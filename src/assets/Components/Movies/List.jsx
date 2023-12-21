@@ -49,6 +49,7 @@ export const List = ({ movies, setMovies }) => {
 									movie={movie}
 									setMovies={setMovies}
 									getAllMovies={getAllMovies}
+									setEdit={setEdit}
 								/>
 							)}
 						</article>
